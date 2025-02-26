@@ -9,7 +9,7 @@ def add_text(input_path, output_path, text):
 
     dimmed_video = video.fl_image(dim_frame)
 
-    font_path = "fonts/Poppins.ttf"
+    font_path = "fonts/PTSerif-Regular.ttf"
     fontsize = 20
     clip_width = dimmed_video.size[0] - 40
 

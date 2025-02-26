@@ -1,7 +1,7 @@
-from video_creation.video_downloader import download_video
-from video_creation.cropping import trim_and_crop_video
-from video_creation.adding_text import add_text
-from video_creation.backup import backup_download_folder
+from video.video_downloader import download_video
+from video.cropping import trim_and_crop_video
+from video.adding_text import add_text
+from video.backup import backup_download_folder
 
 
 if __name__ == "__main__":
